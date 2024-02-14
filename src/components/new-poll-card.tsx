@@ -4,7 +4,7 @@ import { X } from 'lucide-react'
 export function NewPollCard(){
     return (
         <Dialog.Root>
-            <Dialog.Trigger className="bg-opacity-60 rounded-md p-3 mt-3 ml-3 font-medium bg-slate-100/70">
+            <Dialog.Trigger className="m-0 bg-opacity-60 rounded-md p-3 414:text-xl font-medium bg-slate-100/70 hover:ring-2 ">
                 <button >
                     <span>Criar uma nova enquete!</span>
                 </button>
